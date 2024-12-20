@@ -1,0 +1,16 @@
+/* Responsive Styles */
+@media (max-width: 768px) {
+    main {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    section {
+      max-width: 100%;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  

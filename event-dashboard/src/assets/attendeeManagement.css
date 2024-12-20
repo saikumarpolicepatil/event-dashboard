@@ -1,0 +1,32 @@
+/* attendeeManagement.css */
+.attendee-management-container {
+    padding: 20px;
+  }
+  
+  .attendee-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .attendee-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  .attendee-item button {
+    background-color: #ff4500;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .attendee-item button:hover {
+    background-color: #e43f00;
+  }
+  
